@@ -1,0 +1,245 @@
+/*CSS BUBA-CIODE SECRET*/
+
+*{
+  font-family:bytebounce !important;
+}
+.buba{
+  width: 275px;
+  height: 500px;
+  margin: 64px auto;
+  border: 4px solid #b1b1b1;
+  border-radius: 63px;
+  background: #2a2a2a;
+  position: relative;
+  z-index: 0;
+}
+.bubaMain{
+  margin: 13px auto;
+  width: 100%;
+}
+.antena{
+  z-index: 2;
+  background: #2a2a2a;
+  width: 41px;
+  height: 101px;
+  position: absolute;
+  top: -65px;
+  left: 5px;
+  border-radius: 20px 20px 0 0;
+}
+.sup{width: 41px;height: 33px;border-radius: 20px 20px 0 0;}
+
+.b1{width: 100px;height: 9px;margin: 13px auto;border-radius: 3px;background: #434343cc;}
+.visor{
+  width: 92%;
+  margin: 20px auto;
+  height: 233px;
+  border: 1px solid #969696;
+  border-radius: 10%;
+  background: #fff;
+}
+.visor input{
+  width: 87%;
+  margin: 51px 1px 0px 25px;
+  height: 114px;
+  border: none;
+  font-size: 117px;
+  font-weight: bold;
+  color: #7e7e7e;
+}
+.visor div{
+  margin: 22px auto;
+  font-family: bytebounce;
+  text-align: center;
+  font-size: 25px;
+  color: #b0b0b0fa;
+}
+.visor .cod{
+  text-align: center;
+  font-size:120px;
+  color: #797878fa;
+}
+.teclado{
+  margin: 0px auto;
+  width: 94%;
+}.teclado button{
+  font-size: 90px;
+  margin: 0 12PX;
+  width:100px;
+  border-radius:50%;
+  height:100px;
+  color: #5b5b5b;
+  border: 4px solid #a9a9a9;
+  background: #ccc;
+  font-family: bytebounce;
+}
+.bo1{ 
+    width: 50px;
+    height: 50px;
+    background: #323232; 
+    border-radius: 50%; 
+    margin: 37px 26px;  
+    display: none;
+  }
+  .resetando{
+    margin: "20px auto";
+    padding:12px;
+    height: 50px;
+    position: absolute;
+    left:36%;
+    border:none;
+    background: #323232;
+    color: #a9a9a9;
+    font-weight: bold;
+    border-radius: 50%;
+ }
+ .digitando{
+  color: #7a7a7a !important;
+  display: inline-flex;
+
+}
+  .logo{
+      font-family:sdglitchdemo;
+      float: left;
+      position: absolute;
+      bottom:10px;
+      left: 120px;
+      color: #3b3b3b;
+      font-size: 23px;
+      }
+
+/*Cofre css*/
+.cofre{
+  width:640px;
+  height:500px;
+  margin:auto;
+  border-radius: 20px;
+  background:linear-gradient(50deg,#474747,#b3b3b3);
+  z-index:6;
+  border: 4px solid #b9b9b9;
+  }
+  .portaCofre {
+    width: 96%;
+    height: 430px;
+    padding: 0;
+    border: 6px solid #464646;
+    margin:1% auto;
+    border-radius: 20px;
+    background: #adadad;
+    position: relative;
+    box-shadow:inset 1px 1px 20px #000000;
+
+}
+.portaIn{
+  width:92%;
+  height: 370px;
+  position: relative;
+  border:6px solid #a5a5a5;
+  margin:4% 0 0 22px;
+  border-radius:10px;
+  z-index:2;
+  background:linear-gradient(10deg,#505050,#e6e6e6);
+  box-shadow:-2px 2px 10px #000000;
+}
+.tranca {
+  width: 140px;
+  height: 140px;
+  border-radius:50%;
+  background: #4d4d4d;
+  padding: 6%;
+  border:8px solid #9c9c9c;
+  position: absolute;
+  left: -90px;
+  top: 50px;
+  box-shadow: 1px 1px 2px #292929;
+  
+}
+.tranca .in{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  background:radial-gradient(#d1d1d1,#525252);
+  border:6px solid #8d8d8d;
+  margin:8% auto;
+  box-shadow:2px 5px 30px #292929;
+}
+.dobra{
+  top:50px;
+  width:30px;
+  height:80px;
+  background:linear-gradient(80deg,#2c2c2c,#9e9e9e);
+  position: absolute;
+  right: -10px;
+  border-radius:20%;
+  z-index:3;
+  box-shadow: -2px 1px 5px 1px #292929;
+
+}
+.d1 {
+  top:280px;
+}
+.sp{
+  border-bottom: 2px solid #494949;
+  height:25px;
+}
+.teclaCofre {
+  width:300px;
+  border-radius: 33px;
+  background:linear-gradient(10deg,#3b3b3b,#646464);
+  float: right;
+  margin: 7% 60px;
+  padding:4%;
+  border:8px solid #b1b1b1;
+  position: relative;
+  box-shadow: 1px 1px 8px #3a3a3a;
+}
+.tecla{
+  width:200px;
+  float: right;
+  margin-right: -20px;
+  padding: 2px;
+}
+    .visorCofre{
+      width:160px;
+      height:50px;
+      border:2px solid #464646;
+      margin:5% auto;
+      background: #292929;
+      display:inline-flex;
+      padding:10px;
+      border-radius:6px;
+      color: #b4b4b4;
+      font-weight: bold;
+      font-size: 12px;
+    }
+
+    /*CODE BTN*/
+    .btnC {
+      width: 66px;
+      border:none;
+      height: 66px;
+      font-size: 37px;
+      margin:5%;
+      border-radius: 50%;
+      background: #ffffffaf;
+      font-weight: bold;
+      box-shadow:1px 1px 10px #292929;
+      border: 2px solid #ffffff;
+      color: #4d4d4d;
+  }
+
+  footer div{
+    width:140px;
+    height:20px;
+    border-radius:0 0 30% 30%;
+    position: absolute;
+    bottom:-19px;
+    margin-left:28px;
+    background-color: #6d6c6c;
+    z-index: 4;
+    box-shadow:inset 1px 1px 20px #2c2c2c;
+}
+footer .perna2{
+  margin-left:444px;
+}
+
